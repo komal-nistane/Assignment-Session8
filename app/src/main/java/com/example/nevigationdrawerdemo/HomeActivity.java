@@ -32,10 +32,6 @@ public class HomeActivity extends BaseActivity
      * holds customApplication instance
      */
     private CustomApplication mCustomApplication;
-    /**
-     * Holds person list instance
-     */
-    List<Person> mPersonList;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
