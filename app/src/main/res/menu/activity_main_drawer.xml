@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_developer_info"
+            android:icon="@drawable/organization_information"
+            android:title="Developer Information" />
+        <item
+            android:id="@+id/nav_organization_info"
+            android:icon="@drawable/organization_information"
+            android:title="Organisation Information" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/settings"
+            android:title="Settings" />
+
+    </group>
+
+</menu>
